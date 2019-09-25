@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "testSuite.h"
+#include "cspec.h"
 
 // *******************************************************************
 // Globals
@@ -66,7 +66,7 @@ void printTestSummary() {
 
   if (failedTests == 0) {
     switchToTerminalColor(GREEN);
-    puts("\n  VICTORY!!!!!!!!!\n");
+    puts("\n  ALL SPECS PASS\n");
     switchToTerminalColor(WHITE);
   }
   puts("");
